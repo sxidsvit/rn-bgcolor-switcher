@@ -17,6 +17,8 @@
 
 ### Branch ANDROID contains version of the application for devices based on Android/iOS
 
+![](demo-expo-go.gif)
+
 ---
 
 ### Tech Stack
