@@ -1,50 +1,42 @@
-# Welcome to your Expo app 👋
+## Test task:
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+1. Create a test application using Expo Web
+2. The application should: display the text "Hello there" in the middle of the screen and after tapping anywhere on the screen, a background color should be changed to a randomly generated color. You can also add any other feature to the app - that adds bonus points
+3. Please do not use any external libraries for color generation
+4. Don't use any "AI tools" like ChatGPT or similar.
+5. Push code to GitHub
+6. Send the link to the GitHub repository back
 
-## Get started
+---
 
-1. Install dependencies
+### Branch MAIN contains Web version of the application 
 
-   ```bash
-   npm install
-   ```
+![](demo-expo-web.gif)
 
-2. Start the app
+---
 
-   ```bash
-    npx expo start
-   ```
+### Branch ANDROID contains version of the application for devices based on Android/iOS
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Tech Stack
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- [React Native](https://reactnative.dev/)
+- [Expo Go](https://docs.expo.dev/)
+- [NativeWind](https://www.nativewind.dev/) - NativeWind uses Tailwind CSS as scripting language to create a universal style system for React Native. NativeWind components can be shared between platforms and will output their styles as CSS StyleSheet on web and StyleSheet.create for native.
+- [Expo Font](https://docs.expo.dev/versions/latest/sdk/font/) 
+- [Expo Router](https://docs.expo.dev/router/introduction/)
+- [Expo Vector Icons](https://docs.expo.dev/guides/icons/)
+- [TypeScript](https://www.typescriptlang.org/) 
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
 
-## Get a fresh project
 
-When you're ready, run:
 
-```bash
-npm run reset-project
-```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+##### Contact with me:
 
-To learn more about developing your project with Expo, look at the following resources:
+[<img alt="webDev | LinkedIn" src="https://img.shields.io/badge/linkedin-0077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />][linkedin]
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+[linkedin]: https://www.linkedin.com/in/sergiy-antonyuk/
